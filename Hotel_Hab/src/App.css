@@ -1,0 +1,17 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: .2rem;
+}
+html, body, #root {
+    height: 100%;
+  }
+body {
+    background-color: #fbeae1;
+    margin: 0;
+    
+    
+}
+html {
+    min-height: 100%;
+    position: absolute;
+  }
