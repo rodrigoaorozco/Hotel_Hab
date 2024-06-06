@@ -8,6 +8,7 @@ import Galeria from './components/galeria/Galeria';
 import  Login  from './components/login/Login';
 import Contacto from './components/contacto/Contacto';
 import  Reserva  from './components/reserva/Reserva';
+import Estancias from './components/estancias/Estancias';
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Galeria" element={<Galeria />} />
         <Route path="/Contacto" element={<Contacto />} />
         <Route path="/Reserva" element={<Reserva />} />
+        <Route path='/Estancias' element={<Estancias />} />
       </Routes>
 
       <Footer />

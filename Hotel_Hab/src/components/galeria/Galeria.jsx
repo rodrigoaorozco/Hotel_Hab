@@ -13,7 +13,7 @@ function Galeria() {
     return (
         <>
             <div className='mt-16 text-center w-full m-auto'>
-                <h2 className='text-2xl bg-orange-300 w-2/5 rounded m-auto mb-3'>GALERÍA DE FOTOS DE HOTELIA</h2>
+                <h2 className='text-xl font-bold text-orange-600 m-auto mb-3'>GALERÍA DE FOTOS DE HOTELIA</h2>
                 <div className='w-3/4 m-auto flex flex-col'>
                     <h3 className='mt-6'>NUESTRO HOTEL</h3>
                     <div className='flex flex-wrap w-full m-auto justify-center'>

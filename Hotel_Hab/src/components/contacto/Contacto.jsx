@@ -4,7 +4,7 @@ function Contacto() {
     return (
         <>
             <div className='mt-8 m-auto w-2/3 text-center'>
-                <h3 className=' text-orange-500 font-semibold'>RELLENA EL FORMULARIO DE CONTACTO</h3>
+                <h3 className='text-xl text-orange-500 font-bold'>RELLENA EL FORMULARIO DE CONTACTO</h3>
                 <p className='mt-12 w-3/4 m-auto'>Para caulquier duda o consulta Hotelia dispone de un formulario de contacto que podrás rellenar a continuación y estaremos encantados de resolver todas tus dudas, y en un plazo máximo de 24h nuestro hotel dará respuesta a tus preguntas o dudas. Gracias por tu confianza.</p>
                 <div className=' w-3/5 bg-orange-200 m-auto mt-8 p-6 rounded'>
                     <div className='m-5 w-full flex flex-col items-center'>

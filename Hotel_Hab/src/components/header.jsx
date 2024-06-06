@@ -38,7 +38,7 @@ function Header() {
          <Link to='/login'> <box-icon name='user' color='#ffffff' ></box-icon></Link> 
         </div>
         <div className='flex gap-5 text-gray-300 p-3 mr-4 absolute bottom-0 right-0 text-xl'>
-          <a href="">Estancias</a>
+          <Link to='/Estancias'>Estancias</Link>
          <Link to='/Reserva'className=' hover:text-slate-400'> <a href="">Reserva</a></Link>
           <Link to='/Galeria' className=' hover:text-slate-400'>Galería</Link>
           <Link to='/Contacto' className=' hover:text-slate-400'>Contacto</Link>
