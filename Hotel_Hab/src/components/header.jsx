@@ -13,7 +13,7 @@ function Header() {
         </div>
         <div className="flex gap-4 absolute top-0 right-0 p-3 mr-1">
         <box-icon name='envelope' color='#f3f2f2' ></box-icon>
-         <Link to='./login'> <box-icon name='user' color='#ffffff' ></box-icon></Link> 
+         <Link to='/login'> <box-icon name='user' color='#ffffff' ></box-icon></Link> 
         </div>
         <div className='flex gap-5 text-gray-300 p-3 mr-4 absolute bottom-0 right-0 text-xl'>
           <a href="">Estancias</a>

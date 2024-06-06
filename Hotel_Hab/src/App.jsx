@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Home from './components/home/Home';
 import Footer from './components/Footer';
 import Galeria from './components/galeria/Galeria';
-import { Login } from './components/login/login';
+import  Login  from './components/login/Login';
 
 function App() {
   
@@ -14,9 +14,10 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Routes path="./components/login" element={<Login />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/" element={<Home />} />
         <Route path="/Galeria" element={<Galeria />} />
+        
       </Routes>
 
       <Footer />
