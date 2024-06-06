@@ -4,7 +4,7 @@ import 'boxicons';
 function Footer() {
     return (
         <>
-            <div className='flex w-full p-5 items-center content-center pt-6 relative bottom-0 left-0 right-0  bg-zinc-800'>
+            <div className='flex w-full p-5 items-center content-center pt-6 absolute bottom-0 left-0  bg-zinc-800'>
                 <div className='flex flex-col gap-4 items-center content-center w-1/3 text-white'>
                     <p>Siguenos en nuestras redes sociales:</p>
                     <div className='flex gap-12'>
