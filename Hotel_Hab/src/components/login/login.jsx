@@ -1,12 +1,12 @@
 import React from "react";
-import './Login.css'
+import './login.css'
 const Login = () => {
     return (
       <>
         <div className="container flex flex-row justify-between items-center m-10">
-          <div className="container login ">
+          <div className="container mt-12 ">
             <form className="max-w-sm mx-auto">
-              <h2 className="mb-8">Iniciar Sesión</h2>
+              <h2 className="mb-8 font-semibold">Iniciar Sesión</h2>
               <div className="mb-5">
                 <label
                   htmlFor="email"

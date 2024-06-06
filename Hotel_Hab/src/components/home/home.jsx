@@ -1,14 +1,40 @@
 import React from 'react'
 import  Carousel  from './Carousel'
+import { Link } from "react-router-dom";
 
 function home() {
   return (
     <>
       <main className=' mt-12'>
             <Carousel></Carousel>
-            <div className='w-3/4 m-auto bg-orange-200 mt-12 h-96'>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, veritatis facere non velit qui cum neque ipsum ducimus provident dolores ea molestias voluptatibus libero quo consequuntur dignissimos? Esse, iusto officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quos cupiditate reprehenderit quibusdam voluptates repellendus autem quaerat ab. Tenetur error libero repellat explicabo quaerat accusamus qui suscipit facere nulla doloremque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ipsum accusantium expedita saepe sequi, error quibusdam, voluptatum eos, eligendi amet fugiat quia doloremque repellat dolore veniam culpa ducimus voluptate. Cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga molestias facilis totam. Numquam nulla, enim eligendi, iste labore dignissimos exercitationem odit recusandae laborum ratione molestiae, soluta nisi officiis quos neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est enim possimus animi temporibus rerum quae in perferendis ducimus? Animi labore sed expedita fuga cumque blanditiis dolor earum ea doloribus vel.</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat vel modi hic suscipit eos? Iste, quasi tempora? Eligendi, repellat! Quae repudiandae rerum fuga placeat at. Corrupti quos nulla dignissimos eius?</p>
+            <div className='w-3/4 m-auto bg-orange-200 mt-12 p-4 text-center'>
+              <h2>VEN Y DISFRUTA DE UNA ESTANCIA DE LO MAS GLAMUROSA</h2>
+              <p className='p-3'>¡Bienvenidos a HotelIA, su refugio de confort y elegancia! Situado en el corazón de la ciudad, nuestro hotel ofrece un ambiente acogedor y sofisticado, ideal tanto para viajes de negocios como de placer. Disfrute de nuestras instalaciones de primera clase, incluyendo un hermoso jardín, una piscina refrescante y un restaurante gourmet. Estamos comprometidos a brindarle una estancia inolvidable, llena de momentos especiales y atención personalizada. ¡Esperamos darle la bienvenida pronto!</p>
+              <p>Disponemos de una amplia gama de habitaciones, incluyendo nuestras lujosas suites y opciones premium, diseñadas para brindarle el máximo confort y elegancia. Ya sea que viaje solo o en familia, encontrará el espacio perfecto para su estancia en HotelIA.</p>
+              <div className='m-auto w-3/4 flex justify-center p-6'>
+                <img src="/images/suite/suite11.jpg" className=' w-60 mx-6' alt="" />
+                <img src="/images/premium/premium11.jpg" className=' w-60 mx-6' alt="" />
+                <img src="/images/dormitorio/dormi11.jpg" className=' w-60 mx-6' alt="" />
+              </div>
+              <p>Disponemos de una amplia gama de habitaciones, incluyendo nuestras lujosas suites y opciones premium, diseñadas para brindarle el máximo confort y elegancia. Ya sea que viaje solo o en familia, encontrará el espacio perfecto para su estancia en HotelIA.</p>
+
+              <Link to='/Galeria'><button className='p-2 my-2 bg-orange-400 rounded hover:bg-orange-500'>Ver Galería completa</button></Link>
+              <h2 className='mt-10'>TODOS LOS SERVICIOS PARA TI</h2>
+              <div className='m-auto w-3/4 flex justify-center p-6'>
+                <img src="/images/hotel/piscina.jpg" alt="" className='w-60 mx-6' />
+                <img src="/images/hotel/bar.jpg" alt="" className='w-60 mx-6' />
+                <img src="/images/hotel/terraza.jpg" alt="" className='w-60 mx-6' />
+                <img src="/images/hotel/jardin.jpg" alt="" className='w-60 mx-6' />
+              </div>
+              <p>En HOTELIA disponemos de los mejores espacios para tu descanso. disponemos de piscina techada, bar exterior, terraza solarium con las mejores vistas y un jardín para su descanso</p>
+              <h2 className='mt-10'>RESTAURANTE BUFFET LIBRE</h2>
+              <div className='m-auto w-3/4 flex justify-center p-6'>
+                <img src="/images/hotel/comedor1.jpg" alt="" className='w-60 mx-6' />
+                <img src="/images/hotel/comedor2.jpg" alt="" className='w-60 mx-6' />
+                <img src="/images/hotel/comedor3.jpg" alt="" className='w-60 mx-6' />
+              </div>
+              <p>Ponemos a tu disposición nuestro comedor donde servimos comidas y cenas a la carta o en buffet libre, con los mejores cocineros seleccionados para ti.</p>
+              <button className='p-2 my-2 bg-orange-400 rounded hover:bg-orange-500'>Reserva YA!</button>
             </div>
       </main>
     </>
