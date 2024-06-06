@@ -34,7 +34,7 @@ function home() {
                 <img src="/images/hotel/comedor3.jpg" alt="" className='w-60 mx-6' />
               </div>
               <p>Ponemos a tu disposición nuestro comedor donde servimos comidas y cenas a la carta o en buffet libre, con los mejores cocineros seleccionados para ti.</p>
-              <button className='p-2 my-2 bg-orange-400 rounded hover:bg-orange-500'>Reserva YA!</button>
+              <button className='p-2 my-4 bg-orange-400 rounded hover:bg-orange-500'>Reserva YA!</button>
             </div>
       </main>
     </>
