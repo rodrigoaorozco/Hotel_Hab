@@ -18,10 +18,10 @@ function Header() {
   return (
     <>
       <div className=' bg-slate-700 w-auto flex items-center relative'>
-        <Link to='/'><img src="/images/logo.png" className=' max-w-64' alt="" /></Link>
-        <div className="m-auto text-center ">
-          <h1 className='text-5xl text-amber-500'>LE DAMOS LA BIENVENIDA A HOTELIA</h1>
-          <h2 className='text-1xl  text-amber-600 mt-2'>El primer hotel de Europa con Inteligencia Artificial</h2>
+        <Link to='/'><img src="/images/logo.png" className=' max-w-xs' alt="" /></Link>
+        <div className="m-auto text-center flex flex-col justify-center">
+          <h1 className='lg:text-4xl md:2xl sm:text-2xl text-amber-500'>LE DAMOS LA BIENVENIDA A HOTELIA</h1>
+          <h2 className='lg:text-xl md:sm sm:text-xs   text-amber-600 mt-2'>El primer hotel de Europa con Inteligencia Artificial</h2>
         </div>
         <div className="flex gap-4 absolute top-0 right-0 p-3 mr-1">
         <box-icon
