@@ -1,9 +1,16 @@
 import React from "react";
-import './Login.css'
+import './login.css'
 const Login = () => {
     return (
       <>
-        <div className="container flex flex-row justify-between items-center m-10">
+        <div className=" container flex  justify-center mt-8 font-medium">
+          <p className="">
+            Para acceder a su cuenta, por favor inicie sesión utilizando su
+            correo electrónico y contraseña. 
+          </p>
+        </div>
+
+        <div className="container flex flex-row justify-between items-center m-12">
           <div className="container login ">
             <form className="max-w-sm mx-auto">
               <h2 className="mb-8">Iniciar Sesión</h2>
