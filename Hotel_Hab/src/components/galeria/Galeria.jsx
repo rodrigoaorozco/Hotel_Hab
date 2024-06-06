@@ -4,22 +4,64 @@ import { GaleriaDB } from './GaleriaDB'
 function Galeria() {
 
     const hotelGaleria = GaleriaDB.find(item => item.category === 'hotel');
+    const habGaleria = GaleriaDB.find(item => item.category === 'dormitorio');
+    const dormGaleria = GaleriaDB.find(item => item.category === 'matrimonio');
+    const premiumGaleria = GaleriaDB.find(item => item.category === 'premium');
+    const suiteGaleria = GaleriaDB.find(item => item.category === 'suite');
 
-    
-  return (
-    <>
-      <div className='mt-16 text-center w-full m-auto'>
-        <h2>Galería de fotos de HotelIA</h2>
-        <div className='w-3/4 m-auto flex flex-col'>
-            <div className='flex flex-wrap w-full m-auto'>
-            {hotelGaleria && hotelGaleria.images.map((src, index) => (
-                            <img key={index} src={src} alt={`Hotel ${index + 1}`} className='my-3 w-48 mx-2' />
+
+    return (
+        <>
+            <div className='mt-16 text-center w-full m-auto'>
+                <h2 className='text-2xl bg-orange-300 w-2/5 rounded m-auto mb-3'>GALERÍA DE FOTOS DE HOTELIA</h2>
+                <div className='w-3/4 m-auto flex flex-col'>
+                    <h3 className='mt-6'>NUESTRO HOTEL</h3>
+                    <div className='flex flex-wrap w-full m-auto justify-center'>
+                        {hotelGaleria && hotelGaleria.images.map((src, index) => (
+                            <img key={index} src={src} alt={`Hotel ${index + 1}`} className='my-3 w-48 mx-2 hover:scale-150' />
                         ))}
+                    </div>
+                    <div className='flex justify-around'>
+                        <div>
+                            <h3 className='mt-6'>HABITACIONES DOBLES</h3>
+                            <div className='flex flex-wrap w-full m-auto justify-center'>
+                                {habGaleria && habGaleria.images.map((src, index) => (
+                                    <img key={index} src={src} alt={`Hotel ${index + 1}`} className='my-3 w-40 mx-4 hover:scale-150' />
+                                ))}
+                            </div>
+                        </div>
+                        <div>
+                            <h3 className='mt-6'>HABITACIONES ADVANCE</h3>
+                            <div className='flex flex-wrap w-full m-auto justify-center'>
+                                {dormGaleria && dormGaleria.images.map((src, index) => (
+                                    <img key={index} src={src} alt={`Hotel ${index + 1}`} className='my-3 w-40 mx-4 hover:scale-150' />
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 className='mt-8'>HABITACIONES PREMIUM</h3>
+                        <div className='flex flex-wrap w-full m-auto justify-center'>
+                                {premiumGaleria && premiumGaleria.images.map((src, index) => (
+                                    <img key={index} src={src} alt={`Hotel ${index + 1}`} className='my-3 w-40 mx-4 hover:scale-150' />
+                                ))}
+                        </div>
+
+                    </div>
+                    <div>
+                        <h3 className='mt-8'>HABITACIONES SUITE EXCLUSIVAS</h3>
+                        <div className='flex flex-wrap w-full m-auto justify-center'>
+                                {suiteGaleria && suiteGaleria.images.map((src, index) => (
+                                    <img key={index} src={src} alt={`Hotel ${index + 1}`} className='my-3 w-40 mx-6 hover:scale-150 hover:shadow-slate-500' />
+                                ))}
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
-        </div>
-      </div>
-    </>
-  )
+        </>
+    )
 }
 
 export default Galeria
