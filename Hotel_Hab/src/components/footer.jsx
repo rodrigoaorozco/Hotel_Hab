@@ -21,7 +21,7 @@ function Footer() {
                 <div className='text-white text-center w-1/3'>
                     <p>Estamos aquí:</p>
                     <div className='w-1/3 m-auto'>
-                        <a href="https://maps.app.goo.gl/SBbeHiTTgpvuxNbG7" target='_BLANK'> <img className='w-full mt-2' src="/images/mapa.png" alt="" /></a>
+                        <a href="https://maps.app.goo.gl/SBbeHiTTgpvuxNbG7" target='_BLANK'> <img className='w-full mt-2 rounded' src="/images/mapa.png" alt="" /></a>
                     </div>
                 </div>
             </div>

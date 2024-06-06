@@ -6,6 +6,7 @@ import Home from './components/home/Home';
 import Footer from './components/Footer';
 import Galeria from './components/galeria/Galeria';
 import  Login  from './components/login/Login';
+import Contacto from './components/contacto/Contacto';
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<Home />} />
         <Route path="/Galeria" element={<Galeria />} />
+        <Route path='/Contacto' element={<Contacto />}/>
         
       </Routes>
 
