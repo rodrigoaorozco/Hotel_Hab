@@ -9,7 +9,7 @@ function Reserva() {
 
 
       </div>
-      <div className="w-full md:w-2/4 m-auto mt-12 p-4 text-center rounded">
+      <div className="w-full md:w-2/4 m-auto mt-6 p-4 text-center rounded">
 
         <div className="flex items-center justify-center p-1 md:p-6 w-full">
           <div className="mx-auto w-full  bg-white rounded shadow-2xl">

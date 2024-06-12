@@ -12,7 +12,7 @@ function Galeria() {
 
     return (
         <>
-            <div className='mt-16 text-center w-full m-auto'>
+            <div className='mt-6 text-center w-full m-auto'>
                 <h2 className='text-xl font-bold text-orange-600 m-auto mb-3'>GALERÍA DE FOTOS DE HOTELIA</h2>
                 <div className='w-3/4 m-auto flex flex-col'>
                     <h3 className='mt-6'>NUESTRO HOTEL</h3>
