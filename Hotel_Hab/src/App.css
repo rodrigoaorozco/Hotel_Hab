@@ -5,18 +5,22 @@
 #root {
   width: 100%;
   margin: 0 auto;
+  width: auto;
+  
+  
   
 }
 html {
     min-height: 100%;
     width: 100%;
     position: relative;
+    
   }
 body {
     background-color: #fbeae1;
     position: relative;
     padding-bottom: 21rem;
-    min-height: 100vh;
+    min-height: 100vh; 
     
   }
 
